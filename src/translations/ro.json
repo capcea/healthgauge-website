@@ -9,7 +9,7 @@
     "terms": "Termeni"
   },
   "hero": {
-    "title": "Codex: Calculatoare rapide pentru sănătate",
+    "title": "Health Gauge: Calculatoare rapide pentru sănătate",
     "subtitle": "Monitorizează, planifică și îmbunătățește-ți stilul de viață cu instrumente bazate pe dovezi.",
     "cta": "Descoperă calculatoarele"
   },
@@ -52,7 +52,7 @@
     "empty": "Nu am găsit articole pentru căutarea ta."
   },
   "contact": {
-    "title": "Contactează Codex",
+    "title": "Contactează Health Gauge",
     "subtitle": "Colaborăm cu clinicieni, educatori și echipe de produs.",
     "name": "Nume",
     "email": "Email",

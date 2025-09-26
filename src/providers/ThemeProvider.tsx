@@ -12,7 +12,7 @@ const ThemeContext = createContext<ThemeContextValue | undefined>(undefined);
 
 const getInitialTheme = (): Theme => {
   if (typeof window === 'undefined') return 'light';
-  const stored = window.localStorage.getItem('codex-theme') as Theme | null;
+  const stored = window.localStorage.getItem('healthgauge-theme') as Theme | null;
   if (stored) return stored;
   const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
   return prefersDark ? 'dark' : 'light';
@@ -26,7 +26,7 @@ export const ThemeProvider: React.FC<React.PropsWithChildren> = ({ children }) =
     root.classList.remove(theme === 'dark' ? 'light' : 'dark');
     root.classList.add(theme);
     root.setAttribute('data-theme', theme);
-    window.localStorage.setItem('codex-theme', theme);
+    window.localStorage.setItem('healthgauge-theme', theme);
   }, [theme]);
 
   const toggleTheme = () => {

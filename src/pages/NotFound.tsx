@@ -5,7 +5,7 @@ import { SEO } from '../components/SEO';
 const Component: React.FC = () => {
   return (
     <>
-      <SEO title="Page not found" description="The page you were looking for is unavailable. Explore Codex calculators instead." />
+      <SEO title="Page not found" description="The page you were looking for is unavailable. Explore Health Gauge calculators instead." />
       <section className="py-24">
         <div className="mx-auto max-w-3xl px-4 text-center">
           <p className="text-sm font-semibold uppercase tracking-wide text-primary-600">Error 404</p>

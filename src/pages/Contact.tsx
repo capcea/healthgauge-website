@@ -29,7 +29,7 @@ const Component: React.FC = () => {
 
   return (
     <>
-      <SEO title="Contact Codex" description="Reach the Codex team for partnerships, calculator integrations, or editorial opportunities." url="/contact" />
+      <SEO title="Contact Health Gauge" description="Reach the Health Gauge team for partnerships, calculator integrations, or editorial opportunities." url="/contact" />
       <section className="py-16">
         <div className="mx-auto max-w-3xl space-y-6 px-4">
           <h1 className="text-4xl font-bold text-slate-900 dark:text-white">{dictionary.contact.title}</h1>

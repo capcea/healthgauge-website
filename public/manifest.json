@@ -1,6 +1,6 @@
 {
-  "name": "Codex Health Hub",
-  "short_name": "Codex",
+  "name": "Health Gauge Health Hub",
+  "short_name": "Health Gauge",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#0ea5e9",

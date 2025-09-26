@@ -24,7 +24,7 @@ const Component: React.FC = () => {
 
   return (
     <>
-      <SEO title="Calculator catalog" description="Browse every Codex calculator with filters for health, fitness, and everyday tools." url="/calculators" />
+      <SEO title="Calculator catalog" description="Browse every Health Gauge calculator with filters for health, fitness, and everyday tools." url="/calculators" />
       <section className="py-16">
         <div className="mx-auto max-w-6xl px-4">
           <div className="mb-6 flex flex-col gap-4 md:flex-row md:items-center md:justify-between">

@@ -27,7 +27,7 @@ export const BaseLayout: React.FC = () => {
         <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4">
           <PrefetchLink to="/" className="flex items-center gap-2 font-display text-xl font-bold" prefetch={() => import('../pages/Home')}>
             <span className="inline-flex h-10 w-10 items-center justify-center rounded-xl bg-primary-600 text-white">C</span>
-            Codex
+            Health Gauge
           </PrefetchLink>
           <nav className="hidden items-center gap-6 text-sm font-medium md:flex">
             {navItems.map((item) => (
@@ -67,7 +67,7 @@ export const BaseLayout: React.FC = () => {
       <footer className="border-t border-slate-200 bg-white/90 py-10 text-sm text-slate-600 dark:border-slate-800 dark:bg-slate-950/90 dark:text-slate-400">
         <div className="mx-auto flex max-w-6xl flex-col gap-6 px-4 md:flex-row md:items-center md:justify-between">
           <div>
-            <p className="font-display text-lg text-slate-900 dark:text-white">Codex Health Hub</p>
+            <p className="font-display text-lg text-slate-900 dark:text-white">Health Gauge Health Hub</p>
             <p>{dictionary.footer.tagline}</p>
           </div>
           <div className="flex flex-wrap gap-4">
@@ -82,7 +82,7 @@ export const BaseLayout: React.FC = () => {
               </PrefetchLink>
             ))}
           </div>
-          <p className="text-xs">© {new Date().getFullYear()} Codex. {dictionary.footer.copyright}</p>
+          <p className="text-xs">© {new Date().getFullYear()} Health Gauge. {dictionary.footer.copyright}</p>
         </div>
       </footer>
     </div>

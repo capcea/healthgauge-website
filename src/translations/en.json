@@ -9,7 +9,7 @@
     "terms": "Terms"
   },
   "hero": {
-    "title": "Codex: Smarter Health & Life Calculators",
+    "title": "Health Gauge: Smarter Health & Life Calculators",
     "subtitle": "Track, plan, and improve your wellbeing with evidence-based tools and curated guidance.",
     "cta": "Explore calculators"
   },
@@ -52,7 +52,7 @@
     "empty": "No posts match your query yet."
   },
   "contact": {
-    "title": "Contact Codex",
+    "title": "Contact Health Gauge",
     "subtitle": "We love partnering with clinicians, educators, and product teams.",
     "name": "Name",
     "email": "Email",

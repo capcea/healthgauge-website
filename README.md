@@ -1,6 +1,6 @@
-# Codex Health Hub
+# Health Gauge Health Hub
 
-Codex is a mobile-first calculator and news platform built with React, Vite, TypeScript, and Tailwind CSS. It ships with bilingual content (English/Romanian), Google Analytics, AdSense placements, SEO metadata, and MDX-powered articles. The project meets WCAG AA color contrast targets and is ready for one-click deploys.
+Health Gauge is a mobile-first calculator and news platform built with React, Vite, TypeScript, and Tailwind CSS. It ships with bilingual content (English/Romanian), Google Analytics, AdSense placements, SEO metadata, and MDX-powered articles. The project meets WCAG AA color contrast targets and is ready for one-click deploys.
 
 ## Features
 

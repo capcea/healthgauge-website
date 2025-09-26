@@ -14,8 +14,8 @@ const siteUrl = 'https://www.example.com';
 const defaultImage = `${siteUrl}/favicon.svg`;
 
 export const SEO: React.FC<SEOProps> = ({ title, description, url, image, schema, locale = 'en_US' }) => {
-  const metaTitle = `${title} | Codex Health Hub`;
-  const metaDescription = description ?? 'Codex delivers fast calculators and actionable health news to power everyday wellbeing.';
+  const metaTitle = `${title} | Health Gauge Health Hub`;
+  const metaDescription = description ?? 'Health Gauge delivers fast calculators and actionable health news to power everyday wellbeing.';
   const canonicalUrl = url ? `${siteUrl}${url}` : siteUrl;
   const metaImage = image ?? defaultImage;
 
@@ -28,7 +28,7 @@ export const SEO: React.FC<SEOProps> = ({ title, description, url, image, schema
       <meta property="og:description" content={metaDescription} />
       <meta property="og:image" content={metaImage} />
       <meta property="og:url" content={canonicalUrl} />
-      <meta property="og:site_name" content="Codex Health Hub" />
+      <meta property="og:site_name" content="Health Gauge Health Hub" />
       <meta property="og:type" content="website" />
       <meta property="og:locale" content={locale} />
       <meta name="twitter:card" content="summary_large_image" />

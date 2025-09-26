@@ -4,7 +4,7 @@ import { SEO } from '../components/SEO';
 const Component: React.FC = () => {
   return (
     <>
-      <SEO title="Privacy policy" description="Understand how Codex collects, stores, and safeguards your personal data." url="/privacy" />
+      <SEO title="Privacy policy" description="Understand how Health Gauge collects, stores, and safeguards your personal data." url="/privacy" />
       <section className="py-16">
         <div className="mx-auto max-w-4xl space-y-6 px-4">
           <h1 className="text-4xl font-bold text-slate-900 dark:text-white">Privacy policy</h1>
@@ -13,7 +13,7 @@ const Component: React.FC = () => {
           </p>
           <div className="space-y-4 text-sm text-slate-600 dark:text-slate-300">
             <p>
-              Codex uses Google Analytics and Google AdSense to understand how visitors use our site and to display contextual ads.
+              Health Gauge uses Google Analytics and Google AdSense to understand how visitors use our site and to display contextual ads.
               We do not sell personal data to third parties.
             </p>
             <p>
@@ -23,7 +23,7 @@ const Component: React.FC = () => {
               Cookies help us remember language preferences and anonymize usage metrics. You can disable cookies in your browser at any time.
             </p>
             <p>
-              For access or deletion requests, email privacy@codex.health. We respond within 30 days.
+              For access or deletion requests, email privacy@healthgauge.health. We respond within 30 days.
             </p>
           </div>
         </div>

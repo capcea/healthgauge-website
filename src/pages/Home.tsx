@@ -27,7 +27,7 @@ const Component: React.FC = () => {
   return (
     <>
       <SEO
-        title="Codex Health Hub"
+        title="Health Gauge Health Hub"
         description="Discover bilingual health calculators, actionable macro tools, and curated wellbeing news—all optimized for mobile."
         url="/"
       />
@@ -100,7 +100,7 @@ const Component: React.FC = () => {
         <div className="mx-auto max-w-6xl px-4">
           <div className="mb-8 flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
             <div>
-              <span className="text-xs uppercase tracking-wide text-primary-200">Codex newsroom</span>
+              <span className="text-xs uppercase tracking-wide text-primary-200">Health Gauge newsroom</span>
               <h2 className="text-3xl font-semibold">{dictionary.home.latestNews}</h2>
             </div>
             <a href="/news" className="rounded-full border border-primary-300 px-4 py-2 text-sm font-semibold text-primary-200 transition hover:bg-primary-500 hover:text-slate-900">

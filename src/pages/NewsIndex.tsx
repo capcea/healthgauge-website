@@ -31,7 +31,7 @@ const Component: React.FC = () => {
 
   return (
     <>
-      <SEO title="Codex newsroom" description="Read the latest Codex health, fitness, and lifestyle insights in English and Romanian." url="/news" />
+      <SEO title="Health Gauge newsroom" description="Read the latest Health Gauge health, fitness, and lifestyle insights in English and Romanian." url="/news" />
       <section className="py-16">
         <div className="mx-auto max-w-6xl px-4">
           <div className="mb-8 flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
