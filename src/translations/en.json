@@ -1,0 +1,63 @@
+{
+  "nav": {
+    "home": "Home",
+    "calculators": "Calculators",
+    "news": "News",
+    "about": "About",
+    "contact": "Contact",
+    "privacy": "Privacy",
+    "terms": "Terms"
+  },
+  "hero": {
+    "title": "Codex: Smarter Health & Life Calculators",
+    "subtitle": "Track, plan, and improve your wellbeing with evidence-based tools and curated guidance.",
+    "cta": "Explore calculators"
+  },
+  "search": {
+    "placeholder": "Search calculators and tools..."
+  },
+  "language": {
+    "toggle": "RO",
+    "label": "Switch to Romanian"
+  },
+  "theme": {
+    "toggle": "Toggle theme"
+  },
+  "footer": {
+    "tagline": "Science-backed calculators and practical insights for everyday health.",
+    "copyright": "All rights reserved."
+  },
+  "home": {
+    "featured": "Featured calculators",
+    "latestNews": "Latest from the newsroom",
+    "trust": "Trusted by clinicians, coaches, and tens of thousands of users.",
+    "cta": "Browse all calculators"
+  },
+  "catalog": {
+    "title": "Calculator catalog",
+    "filter": "Filter by tag",
+    "all": "All",
+    "results": "results",
+    "empty": "No calculators match your search yet. Try different keywords."
+  },
+  "calculator": {
+    "inputs": "Inputs",
+    "results": "Results",
+    "faq": "Frequently asked questions",
+    "related": "Related calculators"
+  },
+  "news": {
+    "title": "Insights & updates",
+    "search": "Search articles...",
+    "empty": "No posts match your query yet."
+  },
+  "contact": {
+    "title": "Contact Codex",
+    "subtitle": "We love partnering with clinicians, educators, and product teams.",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "submit": "Send message",
+    "success": "Thanks! We will respond within 2 business days."
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "nav": {
+    "home": "Acasă",
+    "calculators": "Calculatoare",
+    "news": "Noutăți",
+    "about": "Despre",
+    "contact": "Contact",
+    "privacy": "Confidențialitate",
+    "terms": "Termeni"
+  },
+  "hero": {
+    "title": "Codex: Calculatoare rapide pentru sănătate",
+    "subtitle": "Monitorizează, planifică și îmbunătățește-ți stilul de viață cu instrumente bazate pe dovezi.",
+    "cta": "Descoperă calculatoarele"
+  },
+  "search": {
+    "placeholder": "Caută calculatoare și unelte..."
+  },
+  "language": {
+    "toggle": "EN",
+    "label": "Schimbă limba în engleză"
+  },
+  "theme": {
+    "toggle": "Schimbă tema"
+  },
+  "footer": {
+    "tagline": "Calculatoare validate și sfaturi practice pentru sănătate zilnică.",
+    "copyright": "Toate drepturile rezervate."
+  },
+  "home": {
+    "featured": "Calculatoare recomandate",
+    "latestNews": "Ultimele articole",
+    "trust": "De încredere pentru clinicieni, antrenori și zeci de mii de utilizatori.",
+    "cta": "Vezi toate calculatoarele"
+  },
+  "catalog": {
+    "title": "Catalog de calculatoare",
+    "filter": "Filtrează după etichetă",
+    "all": "Toate",
+    "results": "rezultate",
+    "empty": "Nu există potriviri pentru căutarea ta. Încearcă alte cuvinte cheie."
+  },
+  "calculator": {
+    "inputs": "Date de intrare",
+    "results": "Rezultate",
+    "faq": "Întrebări frecvente",
+    "related": "Calculatoare asociate"
+  },
+  "news": {
+    "title": "Articole și știri",
+    "search": "Caută articole...",
+    "empty": "Nu am găsit articole pentru căutarea ta."
+  },
+  "contact": {
+    "title": "Contactează Codex",
+    "subtitle": "Colaborăm cu clinicieni, educatori și echipe de produs.",
+    "name": "Nume",
+    "email": "Email",
+    "message": "Mesaj",
+    "submit": "Trimite mesajul",
+    "success": "Mulțumim! Revenim în maximum 2 zile lucrătoare."
+  }
+}
