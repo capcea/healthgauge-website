@@ -1,3 +1,18 @@
 User-agent: *
 Allow: /
-Sitemap: https://www.example.com/sitemap.xml
+Disallow: /admin/
+Disallow: /api/
+Disallow: /_next/
+Disallow: /private/
+
+# Allow all search engines to crawl calculators and content
+Allow: /calculators/
+Allow: /news/
+Allow: /about
+Allow: /contact
+
+# Sitemap location
+Sitemap: https://www.healthgauge.com/sitemap.xml
+
+# Crawl delay (optional - helps prevent overloading)
+Crawl-delay: 1

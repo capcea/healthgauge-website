@@ -27,9 +27,21 @@ const Component: React.FC = () => {
   return (
     <>
       <SEO
-        title="Health Gauge Health Hub"
-        description="Discover bilingual health calculators, actionable macro tools, and curated wellbeing news—all optimized for mobile."
+        title="Health Gauge - Professional Health Calculators & Fitness Tools"
+        description="Professional health calculators, fitness tools, and evidence-based wellness insights. Track BMI, calculate macros, plan nutrition, and optimize your health journey with our comprehensive suite of medical-grade calculators."
         url="/"
+        keywords={[
+          'BMI calculator',
+          'macro calculator',
+          'TDEE calculator',
+          'body fat calculator',
+          'calorie calculator',
+          'nutrition planning',
+          'fitness tools',
+          'health tracking',
+          'wellness calculator',
+          'weight loss calculator'
+        ]}
       />
       <section className="bg-gradient-to-b from-primary-50 via-white to-transparent py-16 dark:from-slate-900/40 dark:via-slate-950">
         <div className="mx-auto flex max-w-6xl flex-col gap-10 px-4 md:flex-row md:items-center">

@@ -1,15 +1,53 @@
 {
-  "name": "Health Gauge Health Hub",
+  "name": "Health Gauge - Health Calculators & Fitness Tools",
   "short_name": "Health Gauge",
+  "description": "Professional health calculators, fitness tools, and evidence-based wellness insights",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#0ea5e9",
+  "background_color": "#ffffff",
   "theme_color": "#0ea5e9",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en",
+  "categories": ["health", "fitness", "medical", "lifestyle"],
   "icons": [
     {
       "src": "/favicon.svg",
       "type": "image/svg+xml",
-      "sizes": "64x64"
+      "sizes": "any",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "type": "image/png",
+      "sizes": "180x180",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot-mobile.png",
+      "type": "image/png",
+      "sizes": "390x844",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/screenshot-desktop.png",
+      "type": "image/png",
+      "sizes": "1280x720",
+      "form_factor": "wide"
     }
   ]
 }
