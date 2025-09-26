@@ -6,7 +6,7 @@ type AdSlotProps = {
 };
 
 export const AdSlot: React.FC<AdSlotProps> = ({ slotId, className }) => {
-  const adRef = useRef<HTMLDivElement>(null);
+  const adRef = useRef<HTMLElement>(null);
 
   useEffect(() => {
     if (!adRef.current) return;
@@ -27,7 +27,7 @@ export const AdSlot: React.FC<AdSlotProps> = ({ slotId, className }) => {
         data-ad-slot={slotId}
         data-ad-format="auto"
         data-full-width-responsive="true"
-        ref={adRef}
+        ref={adRef as any}
       />
     </div>
   );
